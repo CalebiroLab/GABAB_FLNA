@@ -43,6 +43,7 @@ Please cite
 
 ### Analysis of diffusive states
 The trajectories are first analysed with an algorithm that detects transient trapping events for each trajectory and each channel: 
+
 The code for transient trapping detection can be downloaded here: 
 https://github.com/YannLanoiselee/Transient_trapping_analysis
 
