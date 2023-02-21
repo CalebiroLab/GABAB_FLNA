@@ -42,14 +42,12 @@ Please cite
 >Sungkaworn, T. et al. Single-molecule imaging reveals receptor-G protein interactions at cell surface hot spots. Nature 550, 543–547 (2017).
 
 ### Analysis of diffusive states
-The trajectories are first analysed with an algorithm that detects transient trapping events for each trajectory and each channel, described in 
->Lanoiselée, Y., Grimes, J., Koszegi, Z. & Calebiro, D. Detecting transient trapping from a single trajectory: A structural approach. Entropy 23, 1–16 (2021). 
-
+The trajectories are first analysed with an algorithm that detects transient trapping events for each trajectory and each channel: 
 The code for transient trapping detection can be downloaded here: 
 https://github.com/YannLanoiselee/Transient_trapping_analysis
 
-Please cite 
->Lanoiselée, Y., Grimes, J., Koszegi, Z. & Calebiro, D. Detecting transient trapping from a single trajectory: A structural approach. Entropy 23, 1–16 (2021).
+When using this code, please cite the paper 
+>Lanoiselée, Y., Grimes, J., Koszegi, Z. & Calebiro, D. Detecting transient trapping from a single trajectory: A structural approach. Entropy 23, 1–16 (2021). 
 
 Then, the information about transient trapping is combined with that of colocalization between C1 and C2 over time using the script “cycle_states_forced_or_not.m”. This generates a file ‘{movie_name_basis}-C{n}_list_states.mat’ for each movie and channel n in the folder ‘global_folders.state_analysis_folder’.
 
