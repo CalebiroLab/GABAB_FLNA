@@ -1,5 +1,5 @@
 # Analysis of GABA-B–Filamin A single-particle tracking data in CHO cells
-Filamin A organizes γ aminobutyric acid type B receptors at the plasma membrane  
+**Filamin A organizes γ aminobutyric acid type B receptors at the plasma membrane**  
 Marie-Lise Jobin, Sana Siddig, Zsombor Koszegi, Yann Lanoiselée, Vladimir Khayenko, Titiwat Sungkaworn, Christian Werner, Kerstin Seier, Christin Misigaiski, Giovanna Mantovani, Markus Sauer, Hans M Maric, Davide Calebiro,  
 Nature Communications 14 (1), 1-14 (2023)
 
