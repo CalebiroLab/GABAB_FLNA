@@ -13,7 +13,7 @@ The file ‘global_folders.m’ contains all the paths to the folders used in th
 ##### Movie list
 A file should be created that contains all movies organized by groups inside a MATLAB structure as follows:
 movie_list.GROUP_NAME_1={'movie1','movie2','movie3'};
-movie_list.GROUP_NAME_2={' movie4',' movie5',' movie6'};
+movie_list.GROUP_NAME_2={'movie4','movie5','movie6'};
 
 To these movie names suffixes ‘-C1’ and ‘-C2’ will be attached automatically for GABA-B and Filamin A respectively.
 
