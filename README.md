@@ -21,7 +21,8 @@ To these movie names suffixes ‘-C1’ and ‘-C2’ will be attached automatic
 The structure parameter contains all the parameters used for analysis. It can be loaded by calling the script ‘parameter_list.m’
 
 ### Coordinate alignment
-For each channel, a .mat file should be created containing 2 ‘tform’ transformations (from C2 to C1 and from C1 to C2), the transformations should be named ‘t_piecewise_linear’ and ‘t_piecewise_linear_rev’ respectively. We recommend using a piecewise linear tform although an affine transformation could be used as well. 
+A .mat file should be created containing 2 variables of 1x2 cells containing ‘tform’ transformations for channel alignement. The first variable named ‘t_piecewise_linear’ should contain nothing in first cell and the tform for transformation from C2 to C1 in second cell. The second variable ‘t_piecewise_linear_rev’ has the similar structure but with reverse transformations (empty, C1 to C2). 
+We recommend using a piecewise linear tform although an affine transformation could be used as well. 
 The alignment matrix should be stored in the folder specified as ‘global_folders.rawfolder’.
 ## Trajectory analysis
 ### Detection and tracking
